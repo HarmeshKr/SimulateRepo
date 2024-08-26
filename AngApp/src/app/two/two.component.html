@@ -1,0 +1,12 @@
+<p>two works!</p>
+
+<button class="btn btn-primary" (click)="child1()">Go to Child1</button>
+<button class="btn btn-success ms-2" (click)="child2()">Go to Child2</button>
+<br/>
+<br/>
+<a [routerLink]="['child1',1000]" class="btn btn-info">Go to Child1(hyperlink)</a>
+
+<br/>
+<div>
+    <router-outlet></router-outlet>
+</div>

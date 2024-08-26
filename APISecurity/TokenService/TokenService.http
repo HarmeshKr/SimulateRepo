@@ -1,0 +1,11 @@
+@TokenService_HostAddress = https://localhost:7000
+
+POST {{TokenService_HostAddress}}/login/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email":"anand@gmail.com",
+  "password":"123"
+}
+###

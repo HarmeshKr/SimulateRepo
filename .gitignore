@@ -1,0 +1,7 @@
+.angular
+bin
+.git
+obj
+node_modules
+.vs
+.vscode

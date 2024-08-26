@@ -1,0 +1,6 @@
+@ResourceService_HostAddress = https://localhost:7001
+GET {{ResourceService_HostAddress}}/forecast/
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuYW5kQGdtYWlsLmNvbSIsInN1YiI6IjEwMCIsIm5hbWUiOiJBbmFuZCIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTcyMTM5ODk1NSwiZXhwIjoxNzIxNDg1MzU1LCJpYXQiOjE3MjEzOTg5NTUsImlzcyI6Ikhhcm1lc2giLCJhdWQiOiJNaWNyb24ifQ.iZqoo7P0D5Ijon0xSxD5KlcILl1r-A-nHdDTXIMozPQ
+
+###

@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:plum">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="one">One</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="two">Two</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="boot">BootStrap</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="one">One</a></li>
+            <li><a class="dropdown-item" routerLink="two">Two</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" routerLink="two/child1">Child 1 of Two</a></li>
+            <li><a class="dropdown-item" routerLink="two/child2">Child 2 of Two</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Dependency</a>
+        </li>
+      </ul>
+      <button class="btn btn-primary ml-auto">Login</button>
+    </div>
+  </div>
+</nav>
+
+<!----------------------------------------->
+<ul id="ul">
+  <li> <a routerLink="one">One</a> </li>
+  <li> <a routerLink="two">Two</a> </li>
+  <li> <a routerLink="temp">Temp</a> </li>
+  <li> <a routerLink="dep">Dependency</a> </li>
+</ul>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
